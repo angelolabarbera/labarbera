@@ -508,3 +508,27 @@ DETAIL PAGE
   grid-column: 1/7;
   text-transform: lowercase;
 }
+
+/* ABOUT */
+
+.main-about {
+  margin-top: 150px;
+  text-transform: none;
+}
+
+.about-intro {
+  grid-column: 1/7;
+}
+
+.philosophy-title {
+  font-family: 'splendid 66', monospace;
+}
+
+.philo {
+  grid-row: 2/12;
+  grid-column: 1/7;
+}
+
+.philo-text {
+  text-transform: none;
+}
