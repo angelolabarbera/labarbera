@@ -461,6 +461,7 @@ DETAIL PAGE
 
   color: black;
   text-decoration: none;
+  font-style: italic;
 }
 
 .contact-main .mail {
@@ -504,8 +505,6 @@ DETAIL PAGE
 }
 
 .note-orders {
-  grid-row: 12/13;
   grid-column: 1/7;
-
   text-transform: lowercase;
 }
