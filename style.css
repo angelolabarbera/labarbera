@@ -239,6 +239,7 @@ COLLECTION PAGE
   margin-top: 0;
   font-size: 13px;
   text-transform: lowercase;
+  font-family: 'splendid 66', monospace;
 }
 
 .div-top-one {
@@ -405,6 +406,11 @@ DETAIL PAGE
   width: 100%;
 }
 
+.product-name {
+  font-size: 28px;
+  margin: 0;
+}
+
 .detail-description {
   position: fixed;
   margin-left: 45%;
@@ -417,15 +423,89 @@ DETAIL PAGE
 }
 
 .detail-belts {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.details-info {
+  padding-bottom: 20px;
+}
+
+.info-p {
+  padding-bottom: 20px;
+}
+
+.colors-p {
+  padding-bottom: 20px;
 }
 
 .details-order-link {
-  margin-top: 20px;
+  /* margin-top: 90px; */
+  transform: translateY(50);
   padding: 10px;
 
   text-decoration: none;
   color: black;
   border: solid 1px #000000;
   font-family: 'Roboto';
+}
+
+/* CONTACTS */
+
+.contact-title {
+  font-family: 'splendid 66';
+}
+
+.contact-main a {
+  padding: 10px;
+  padding-left: 0;
+
+  color: black;
+  text-decoration: none;
+}
+
+.contact-main .mail {
+  grid-row: 2/3;
+}
+
+.tel {
+  grid-row: 3/4;
+}
+
+.insta {
+  grid-row: 4/5;
+  grid-column: 1/7;
+}
+
+.address {
+  grid-column: 1/7;
+  grid-row: 5/6;
+}
+
+.hours {
+  grid-column: 1/7;
+  grid-row: 6/7;
+}
+
+.orders-subtitle {
+  grid-column: 1/7;
+  grid-row: 2/3;
+  text-transform: lowercase;
+}
+
+.measurements {
+  text-transform: lowercase;
+}
+
+.panels {
+  grid-row: 3/12;
+  grid-column: 1/7;
+
+  line-height: 24px;
+}
+
+.note-orders {
+  grid-row: 12/13;
+  grid-column: 1/7;
+
+  text-transform: lowercase;
 }
