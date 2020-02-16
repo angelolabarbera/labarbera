@@ -2,24 +2,24 @@
 
 @font-face {
   font-family: 'Splendid 66';
-  src: url('Splendid66.woff2') format('woff2'),
-      url('Splendid66.woff') format('woff');
+  src: url('fonts/Splendid66.woff2') format('woff2'),
+      url('fonts/Splendid66.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Splendid 66';
-  src: url('Splendid66.woff2') format('woff2'),
-      url('Splendid66.woff') format('woff');
+  src: url('fonts/Splendid66.woff2') format('woff2'),
+      url('fonts/Splendid66.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Splendid 66';
-  src: url('Splendid66-Bold.woff2') format('woff2'),
-      url('Splendid66-Bold.woff') format('woff');
+  src: url('fonts/Splendid66-Bold.woff2') format('woff2'),
+      url('fonts/Splendid66-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -268,7 +268,7 @@ COLLECTION PAGE
   margin-top: 0;
   font-size: 13px;
   text-transform: lowercase;
-  font-family: 'splendid 66', monospace;
+  font-family: 'Splendid 66', monospace;
 }
 
 .div-top-one {
@@ -444,7 +444,7 @@ DETAIL PAGE
   position: fixed;
   margin-left: 45%;
 
-  font-family: 'splendid 66', monospace;
+  font-family: 'Splendid 66', monospace;
 }
 
 .details-htwo {
@@ -481,7 +481,7 @@ DETAIL PAGE
 /* CONTACTS */
 
 .contact-title {
-  font-family: 'splendid 66';
+  font-family: 'Splendid 66';
 }
 
 .contact-main a {
@@ -550,7 +550,7 @@ DETAIL PAGE
 }
 
 .philosophy-title {
-  font-family: 'splendid 66', monospace;
+  font-family: 'Splendid 66', monospace;
 }
 
 .philo {
@@ -770,5 +770,26 @@ DETAIL PAGE
     grid-column: 2/7;
     padding-bottom: 20px;
     text-align: right;
+  }
+
+  /* about */
+
+  .about-intro {
+    grid-column: 3/7;
+  }
+
+  .philo {
+    grid-column: 3/7;
+  }
+
+  /* contact */
+
+  .contact-main {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contact-title, .mail, .tel, .address, .insta {
+    grid-column: 2/6;
   }
 }
