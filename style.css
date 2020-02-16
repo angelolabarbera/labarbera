@@ -384,3 +384,48 @@ COLLECTION PAGE
 .div-main-nine img {
   width: 100%;
 }
+
+
+
+/************
+***********
+DETAIL PAGE
+***********
+************/
+
+/* .detail-main {
+  margin: 0;
+  margin-top: ;
+  margin-left: 30%;
+  width: 70%;
+} */
+
+.detail-img {
+  grid-column: 2/5;
+  width: 100%;
+}
+
+.detail-description {
+  position: fixed;
+  margin-left: 45%;
+
+  font-family: 'splendid 66', monospace;
+}
+
+.details-htwo {
+  font-weight: 400;
+}
+
+.detail-belts {
+  margin-bottom: 20px;
+}
+
+.details-order-link {
+  margin-top: 20px;
+  padding: 10px;
+
+  text-decoration: none;
+  color: black;
+  border: solid 1px #000000;
+  font-family: 'Roboto';
+}
