@@ -44,10 +44,21 @@ function showAll() {
   document.getElementsByClassName('trousers')[4].style.filter = "blur(0px)";
   document.getElementsByClassName('trousers')[5].style.filter = "blur(0px)";
 
-  // document.getElementsByClassName('shoes')[0].style.display = "none";
-  // document.getElementsByClassName('shoes')[1].style.display = "none";
-  // document.getElementsByClassName('shoes')[2].style.display = "none";
-  // document.getElementsByClassName('shoes')[3].style.display = "none";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(0px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(0px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(0px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(0px)";
@@ -62,8 +73,6 @@ function showAll() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(0px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(0px)";
-  
-  document.getElementsByClassName('accessories')[0].style.display = "none";
 }
 
 function showCoats() {
@@ -90,10 +99,21 @@ function showCoats() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -109,8 +129,6 @@ function showCoats() {
 
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showDresses() {
@@ -138,10 +156,21 @@ function showDresses() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -156,8 +185,6 @@ function showDresses() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showShirts() {
@@ -185,10 +212,21 @@ function showShirts() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -203,8 +241,6 @@ function showShirts() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(0px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showTops() {
@@ -232,10 +268,21 @@ function showTops() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(0px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(0px)";
@@ -250,8 +297,6 @@ function showTops() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showSkirts() {
@@ -279,10 +324,21 @@ function showSkirts() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -297,8 +353,6 @@ function showSkirts() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(0px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showTrousers() {
@@ -326,10 +380,21 @@ function showTrousers() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(0px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(0px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -344,8 +409,6 @@ function showTrousers() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showShoes() {
@@ -373,10 +436,21 @@ function showShoes() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(0px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(0px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(0px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(0px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(0px)";
+
+  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -391,8 +465,6 @@ function showShoes() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
-  
-  document.getElementsByClassName('accessories')[0].style.filter = "blur(4px)";
 }
 
 function showAccessories() {
@@ -420,10 +492,14 @@ function showAccessories() {
   document.getElementsByClassName('trousers')[5].style.filter = "blur(4px)";
   document.getElementsByClassName('trousers')[6].style.filter = "blur(4px)";
 
-  // document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
-  // document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[0].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[1].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[2].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[3].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[4].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[5].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[6].style.filter = "blur(4px)";
+  document.getElementsByClassName('shoes')[7].style.filter = "blur(4px)";
 
   document.getElementsByClassName('tops')[0].style.filter = "blur(4px)";
   document.getElementsByClassName('tops')[1].style.filter = "blur(4px)";
@@ -440,4 +516,9 @@ function showAccessories() {
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
   
   document.getElementsByClassName('accessories')[0].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[1].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[2].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[3].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[4].style.filter = "blur(0px)";
+  document.getElementsByClassName('accessories')[5].style.filter = "blur(0px)";
 }
