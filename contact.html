@@ -10,46 +10,99 @@
 </head>
 <body>
   <header class="home-header">
-    <section class="logo--nav">
+    <section class="logo--nav-about">
       <a href="index.html"><img class="logo" src="img/logo.png" alt="la barbera brand logo"></a>
-      <nav class="menu">
+      <section class="about-page-nav">
         <ul>
-          <li class="nav-item nav-shows"><a class="top-nav-link" id="navShows" href="shows.html">Shows</a></li>
-          <li class="nav-item nav-collections"><a class="top-nav-link" id="navCollections" href="collection.html">Collections</a></li>
-          <li class="nav-item nav-gallery"><a class="top-nav-link" id="navGallery" href="galleria.html">Gallery</a>
-            <ul class="span-gallery">
-              <li><a href="gallery.html">A/W 20/21 "OGGETTI QUOTIDIANI”</a></li>
-              <li><a href="gallery.html">Archive</a></li>
-            </ul>
-          </li>
-          <li class="nav-item nav-contacts"><a class="top-nav-link" id="navContacts" href="contact.html">Contacts</a></li>
-          <li class="nav-item nav-about"><a class="top-nav-link" id="navAbout" href="about.html">About</a></li>
+          <li class="nav-item secondary-nav-item"><a class="top-nav-link secondary-link secondary-link-shows" href="shows.html">Shows</a></li>
+          <li class="nav-item secondary-nav-item"><a class="top-nav-link secondary-link" href="collection.html">Collections</a></li>
+          <li class="nav-item secondary-nav-item"><a class="top-nav-link secondary-link" href="galleria.html">Gallery</a></li>
+          <li class="nav-item secondary-nav-item"><a class="top-nav-link secondary-link" href="contact.html">Contacts</a></li>
+          <li class="nav-item secondary-nav-item"><a class="top-nav-link secondary-link" href="about.html">About</a></li>
         </ul>
-      </nav>
+      </section>
     </section>
-    <img class="home-top-img" src="img/top-img.png" alt="close up of a la barbera item of clothing">
   </header>
+
   <main class="contact-main">
-    <section class="main-section contact-info">
-      <h1 class="contact-title">Contact</h1>
-      <a class="mail" href="mailto:angelo@angelolabarbera.com">M:angelo@angelolabarbera.com</a>
-      <a class="tel" href="tel:+447555751437">P:+44(0)7555751437</a>
-      <a class="insta" href="https://www.instagram.com/angelo_labarbera/">Instagram: angelo_labarbera</a>
-      <p class="address">Address: 134 Gloucester Terrace, W2 6HR, London, Uk</p>
-      <p class="hours">From 10.00 to 13.00 and from 14.00 to 19.00</p>
+    <section class="contact-left">
+      <h1 class="contact-title">Contact Us</h1>
+      <article class="contact-sections contact-assistance">
+        <h2 class="contact-section-title">Assistance</h2>
+        <p class="contact-section-text">If you need to contact us regarding your order please email us at <a href="mailto:davide@angelolabarbera.com">davide@angelolabarbera.com</a> we will get back to you as soon as possible.</p>
+        <p class="contact-section-text small-note">*Please note that at the moment our orders are all made to order so there are slightly longer delivery times.</p>
+      </article>
+      <article class="contact-sections contact-press">
+        <h2 class="contact-section-title">Press</h2>
+        <p class="contact-section-text">For all press enquiries please mail us at <a href="mailto:press@angelolabarbera.com">press@angelolabarbera.com</a>.</p>
+      </article>
+      <article class="contact-sections contact-other">
+        <h2 class="contact-section-title">For any other Enquiries</h2>
+        <p class="contact-section-text">Mail:  <a href="mailto:angelo@angelolabarbera.com">angelo@angelolabarbera.com</a>.</p>
+      </article>
+      <article class="contact-sections contact-insta">
+        <h2 class="contact-section-title">Instagram <a href="https://www.instagram.com/angelo_labarbera/">angelo_labarbera</a></h2>
+      </article>
     </section>
-    <section class="main-section contact-orders">
-      <h1 class="contact-title">Orders</h1>
-      <p class="orders-subtitle">If you need to contact us regarding your order please email us at <a href="mailto:davide@angelolabarbera.com">davide@angelolabarbera.com</a>we will get back to you as soon as possible.</p>
-      <p class="panels">ADD Email module with following panels:<br>Name:<br>Email:<br>Phone number:<br>Colour:<br>Size:<br>Notes:<br><span class="measurements">(Please fell free to add any measurement we need to consider when ordering your garment to ensure the best fit)</span></p>
-    </section>
-    <section class="main-section">
-      <p class="orders-subtitle">*Please note that at the moment our orders are all made to order so there are slightly longer delivery times.</p>
-    </section>
-    <section class="main-section">
-      <h1 class="contact-title">Press</h1>
-      <p class="orders-subtitle">For all press enquiries please mail us at <a href="mailto:press@angelolabarbera.com">press@angelolabarbera.com</a></p>
+
+    <section class="contact-right">
+      <h2 class="contact-section-title">Contact Form</h2>
+      <form class="form-contact" action="mailto:charlottecambau@gmail.com" method="post" enctype="text/plain">
+        <div class="form-sections">
+          <p class="form-label">Name:</p>
+          <input class="form-name" type="text" name="name">
+        </div>
+
+        <div class="form-sections">
+          <p class="form-label">Email:</p>
+          <input class="form-mail" type="text" name="mail">
+        </div>
+
+        <div class="form-sections">
+          <p class="form-label">Phone number:</p>
+          <input class="form-number" type="text" name="number"><br>
+        </div>
+
+        <div class="form-sections">
+          <p class="form-label">Colour:</p>
+          <input class="form-colour" type="text" name="colour"><br>
+        </div>
+
+        <div class="form-sections">
+          <p class="form-label">Size</p>
+          <input class="form-size" type="text" name="size"><br>
+        </div>
+
+        <div class="form-sections">
+          <p class="form-label">Notes</p>
+          <p class="form-label label-subtitle">(Please feel free to add any measurement we need to consider when ordering your
+            garment to ensure the best fit)
+          </p>
+          <input class="form-notes" type="text" name="notes" size="50"><br>
+        </div>
+
+        <button class="form-send" type="submit" form="form1" value="Submit">Send</button>
+      </form>
     </section>
   </main>
 </body>
+<!-- <section class="main-section contact-info">
+  <a class="mail" href="mailto:angelo@angelolabarbera.com">M:angelo@angelolabarbera.com</a>
+  <a class="tel" href="tel:+447555751437">P:+44(0)7555751437</a>
+  <a class="insta" href="https://www.instagram.com/angelo_labarbera/">Instagram: angelo_labarbera</a>
+  <p class="address">Address: 134 Gloucester Terrace, W2 6HR, London, Uk</p>
+  <p class="hours">From 10.00 to 13.00 and from 14.00 to 19.00</p>
+</section>
+<section class="main-section contact-orders">
+  <h1 class="contact-title">Orders</h1>
+  <p class="orders-subtitle">If you need to contact us regarding your order please email us at <a href="mailto:davide@angelolabarbera.com">davide@angelolabarbera.com</a>we will get back to you as soon as possible.</p>
+  <p class="panels">ADD Email module with following panels:<br>Name:<br>Email:<br>Phone number:<br>Colour:<br>Size:<br>Notes:<br><span class="measurements">(Please fell free to add any measurement we need to consider when ordering your garment to ensure the best fit)</span></p>
+</section>
+<section class="main-section">
+  <p class="orders-subtitle">*Please note that at the moment our orders are all made to order so there are slightly longer delivery times.</p>
+</section>
+<section class="main-section">
+  <h1 class="contact-title">Press</h1>
+  <p class="orders-subtitle">For all press enquiries please mail us at <a href="mailto:press@angelolabarbera.com">press@angelolabarbera.com</a></p>
+</section> -->
 </html>

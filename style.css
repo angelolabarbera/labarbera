@@ -475,8 +475,45 @@ DETAIL PAGE
 
 /* CONTACTS */
 
+.contact-main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-left {
+  width: 50%;
+  margin-left: 60px;
+  padding: 10px;
+}
+
+.contact-sections {
+  margin-bottom: 65px;
+}
+
 .contact-title {
+  margin-bottom: 35px;
+
   font-family: 'Splendid 66';
+  font-size: 24px;
+}
+
+.contact-section-title {
+  margin-bottom: 16px;
+
+  font-family: 'Splendid 66';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.contact-section-text {
+  font-family: 'Splendid 66';
+  font-size: 16px;
+  text-transform: none;
+}
+
+.small-note {
+  font-size: 14px;
 }
 
 .contact-main a {
@@ -488,49 +525,46 @@ DETAIL PAGE
   font-style: italic;
 }
 
-.contact-main .mail {
-  grid-row: 2/3;
+.contact-right {
+  width: 40%;
+  padding: 20px;
 }
 
-.tel {
-  grid-row: 3/4;
+.form-contact {
+  border-left: solid black .25px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.insta {
-  grid-row: 4/5;
-  grid-column: 1/7;
-}
+.form-label {
+  margin: 0;
+  margin-bottom: 5px;
 
-.address {
-  grid-column: 1/7;
-  grid-row: 5/6;
-}
-
-.hours {
-  grid-column: 1/7;
-  grid-row: 6/7;
-}
-
-.orders-subtitle {
-  grid-column: 1/7;
-  grid-row: 2/3;
+  font-family: 'Splendid 66', monospace;
+  font-size: 16px;
   text-transform: lowercase;
 }
 
-.measurements {
-  text-transform: lowercase;
+.label-subtitle {
+  font-size: 12px;
 }
 
-.panels {
-  grid-row: 3/12;
-  grid-column: 1/7;
-
-  line-height: 24px;
+.form-sections {
+  margin-bottom: 25px;
 }
 
-.note-orders {
-  grid-column: 1/7;
-  text-transform: lowercase;
+.form-send {
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  font-family: 'Splendid 66', monospace;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  background-color: white;
+  border: solid black 1px;
 }
 
 /* ABOUT */
@@ -539,7 +573,7 @@ DETAIL PAGE
   width: 100vw;
 }
 
-.nav-about {
+.about-page-nav {
   width: 70%;
   margin-left: 30%;
 
@@ -549,7 +583,7 @@ DETAIL PAGE
   background-color: white;
 }
 
-.nav-about ul {
+.about-page-nav ul {
   display: flex;
   justify-content: space-evenly;
 }
