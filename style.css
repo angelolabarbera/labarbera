@@ -535,9 +535,50 @@ DETAIL PAGE
 
 /* ABOUT */
 
+.logo--nav-about {
+  width: 100vw;
+}
+
+.nav-about {
+  width: 70%;
+  margin-left: 30%;
+
+  position: fixed;
+  top: 0;
+
+  background-color: white;
+}
+
+.nav-about ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .main-about {
-  margin-top: 150px;
+  margin: 0;
+  margin-top: 100px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
   text-transform: none;
+}
+
+.about-left {
+  width: 40%;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.about-left img {
+  width: 100%;
+}
+
+.about-right {
+  width: 70%;
+  padding: 45px;
+  padding-top: 0;
 }
 
 .about-intro {
@@ -546,14 +587,15 @@ DETAIL PAGE
 
 .philosophy-title {
   font-family: 'Splendid 66', monospace;
+  font-size: 16px;
+  text-transform: uppercase;
 }
-
-.philo {
-  grid-row: 2/12;
-  grid-column: 1/7;
-}
-
 .philo-text {
+  margin-bottom: 25px;
+
+  font-family: 'Splendid 66', monospace;
+  font-size: 14px;
+  line-height: 22px;
   text-transform: none;
 }
 
