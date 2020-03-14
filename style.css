@@ -1203,6 +1203,9 @@ SHOWS
     align-self: auto;
   }
 
+  .footer--nav {
+    background-color: white;
+  }
   /* pdp */
 
   .detail-description {
@@ -1226,6 +1229,11 @@ SHOWS
   }
 
   /* Homepage */
+
+  .home-top {
+    width: 65%;
+    max-height: 150px;
+  }
 
   .section-aw {
     padding-bottom: 20px;
@@ -1254,16 +1262,62 @@ SHOWS
   
   .sectionaw-img-two {
     grid-column: 3/7;
+    width: 100%;
     grid-row: auto;
   }
 
   .sectionaw-img-three {
     grid-column: 3/7;
+    width: 100%;
   }
 
   .gallery--title-link {
     grid-column: 2/7;
+    grid-row: 3/4;
+    padding-top: 20px;
     padding-bottom: 20px;
+    text-align: right;
+  }
+
+  .section-gallery-img-one {
+    grid-column: 3/7;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .sectiongallery-img {
+    grid-row: auto;
+    grid-column: 3/7;
+    width: 100%;
+  }
+
+  .section-gallery-suite {
+    grid-template-columns:  14% 22% 3% 22% 3% 22% 14%;
+  }
+
+  .sectiongallery-img-one, .sectiongallery-img-two, .sectiongallery-img-three, .sectiongallery-img-four {
+    grid-column: 3/7;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .sectiongallery-img-one {
+    grid-row: 1/2;
+  }
+  .sectiongallery-img-two {
+    grid-row: 2/3;
+  }
+  .sectiongallery-img-three {
+    grid-row: 3/4;
+  }
+  .sectiongallery-img-four {
+    grid-row: 4/5;
+  }
+
+  .collection--title-link {
+    grid-column: 2/7;
+    margin-bottom: 15px;
     text-align: right;
   }
 
