@@ -73,6 +73,38 @@ function showAll() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(0px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(0px)";
+  
+  
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showCoats() {
@@ -129,6 +161,37 @@ function showCoats() {
 
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showDresses() {
@@ -185,6 +248,37 @@ function showDresses() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showShirts() {
@@ -241,6 +335,37 @@ function showShirts() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(0px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showTops() {
@@ -297,6 +422,37 @@ function showTops() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showSkirts() {
@@ -353,6 +509,37 @@ function showSkirts() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(0px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showTrousers() {
@@ -409,6 +596,37 @@ function showTrousers() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showShoes() {
@@ -465,6 +683,37 @@ function showShoes() {
   document.getElementsByClassName('shirts')[1].style.filter = "blur(4px)";
   
   document.getElementsByClassName('skirts')[0].style.filter = "blur(4px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "block";
+  document.getElementsByClassName('clothes')[1].style.display = "block";
+  document.getElementsByClassName('clothes')[2].style.display = "block";
+  document.getElementsByClassName('clothes')[3].style.display = "block";
+  document.getElementsByClassName('clothes')[4].style.display = "block";
+  document.getElementsByClassName('clothes')[5].style.display = "block";
+  document.getElementsByClassName('clothes')[6].style.display = "block";
+  document.getElementsByClassName('clothes')[7].style.display = "block";
+  document.getElementsByClassName('clothes')[8].style.display = "block";
+  document.getElementsByClassName('clothes')[9].style.display = "block";
+  document.getElementsByClassName('clothes')[10].style.display = "block";
+  document.getElementsByClassName('clothes')[11].style.display = "block";
+  document.getElementsByClassName('clothes')[12].style.display = "block";
+  document.getElementsByClassName('clothes')[13].style.display = "block";
+  document.getElementsByClassName('clothes')[14].style.display = "block";
+  document.getElementsByClassName('clothes')[15].style.display = "block";
+  document.getElementsByClassName('clothes')[16].style.display = "block";
+  document.getElementsByClassName('clothes')[17].style.display = "block";
+  document.getElementsByClassName('clothes')[18].style.display = "block";
+  document.getElementsByClassName('clothes')[19].style.display = "block";
+  document.getElementsByClassName('clothes')[20].style.display = "block";
+  document.getElementsByClassName('clothes')[21].style.display = "block";
+  document.getElementsByClassName('clothes')[22].style.display = "block";
+  document.getElementsByClassName('clothes')[23].style.display = "block";
+  document.getElementsByClassName('clothes')[24].style.display = "block";
+  document.getElementsByClassName('clothes')[25].style.display = "block";
+  document.getElementsByClassName('clothes')[26].style.display = "block";
+  document.getElementsByClassName('clothes')[27].style.display = "block";
+  document.getElementsByClassName('clothes')[28].style.display = "block";
+  document.getElementsByClassName('clothes')[29].style.display = "block";
 }
 
 function showAccessories() {
@@ -521,4 +770,35 @@ function showAccessories() {
   document.getElementsByClassName('accessories')[3].style.filter = "blur(0px)";
   document.getElementsByClassName('accessories')[4].style.filter = "blur(0px)";
   document.getElementsByClassName('accessories')[5].style.filter = "blur(0px)";
+
+  document.getElementsByClassName('clothes')[0].style.display = "none";
+  document.getElementsByClassName('clothes')[1].style.display = "none";
+  document.getElementsByClassName('clothes')[2].style.display = "none";
+  document.getElementsByClassName('clothes')[3].style.display = "none";
+  document.getElementsByClassName('clothes')[4].style.display = "none";
+  document.getElementsByClassName('clothes')[5].style.display = "none";
+  document.getElementsByClassName('clothes')[6].style.display = "none";
+  document.getElementsByClassName('clothes')[7].style.display = "none";
+  document.getElementsByClassName('clothes')[8].style.display = "none";
+  document.getElementsByClassName('clothes')[9].style.display = "none";
+  document.getElementsByClassName('clothes')[10].style.display = "none";
+  document.getElementsByClassName('clothes')[11].style.display = "none";
+  document.getElementsByClassName('clothes')[12].style.display = "none";
+  document.getElementsByClassName('clothes')[13].style.display = "none";
+  document.getElementsByClassName('clothes')[14].style.display = "none";
+  document.getElementsByClassName('clothes')[15].style.display = "none";
+  document.getElementsByClassName('clothes')[16].style.display = "none";
+  document.getElementsByClassName('clothes')[17].style.display = "none";
+  document.getElementsByClassName('clothes')[18].style.display = "none";
+  document.getElementsByClassName('clothes')[19].style.display = "none";
+  document.getElementsByClassName('clothes')[20].style.display = "none";
+  document.getElementsByClassName('clothes')[21].style.display = "none";
+  document.getElementsByClassName('clothes')[22].style.display = "none";
+  document.getElementsByClassName('clothes')[23].style.display = "none";
+  document.getElementsByClassName('clothes')[24].style.display = "none";
+  document.getElementsByClassName('clothes')[25].style.display = "none";
+  document.getElementsByClassName('clothes')[26].style.display = "none";
+  document.getElementsByClassName('clothes')[27].style.display = "none";
+  document.getElementsByClassName('clothes')[28].style.display = "none";
+  document.getElementsByClassName('clothes')[29].style.display = "none";
 }
