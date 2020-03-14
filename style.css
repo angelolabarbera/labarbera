@@ -342,12 +342,18 @@ COLLECTION PAGE
   margin-left: 20px;
 }
 
+.collections-nav-title {
+  padding-bottom: 0;
+}
+
 .collection-name {
   margin-bottom: 30px;
 
   font-family: 'Splendid 66', monospace;
-  color: #707070;
-  font-size: 9px;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: normal;
 }
 
 /* collection list */
@@ -375,7 +381,19 @@ COLLECTION PAGE
   align-self: center;
 }
 
+.collection-img-wrapper {
+  width: 170px;
+  height: 296px;
+
+  overflow: hidden;
+}
+
+.collection-img-wrapper img {
+  width: 100%;
+}
+
 .description {
+  min-height: 25px;
   margin-top: 0;
   font-size: 13px;
   font-weight: 900;
