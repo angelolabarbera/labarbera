@@ -1775,4 +1775,16 @@ SHOWS
   }
 
 
+  /* gallery archive */
+
+  .main-archive {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  .img-wrapper-archive {
+    grid-column: 2/3;
+    width: 100%;
+    grid-row: auto;
+  }
+
 }
