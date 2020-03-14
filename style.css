@@ -335,6 +335,10 @@ COLLECTION PAGE
   list-style-type: none;
 }
 
+.nav-item {
+  padding-bottom: 0;
+}
+
 .secondary-nav-item {
   display: inline;
 }
