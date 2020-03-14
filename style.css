@@ -75,6 +75,7 @@ nav ul {
   margin-left: 45px;
 
   font-size: 12px;
+  letter-spacing: normal;
   font-family: 'Splendid 66', monospace;
   color: #707070;
 }
@@ -100,6 +101,7 @@ nav ul {
 .span-gallery li a {
   color: #707070;
   text-decoration: none;
+  letter-spacing: normal;
 }
 
 .logo {
@@ -653,6 +655,15 @@ DETAIL PAGE
 }
 
 /* GALLERY -- ARCHIVE */
+.span-g-archive {
+  margin-left: 45px;
+
+  font-size: 12px;
+  font-family: 'Splendid 66', monospace;
+  color: #707070;
+  letter-spacing: normal;
+}
+
 .main-archive {
   width: 70%;
   margin-left: 30%;
@@ -1776,6 +1787,10 @@ SHOWS
 
 
   /* gallery archive */
+
+  .span-g-archive {
+    display: none;
+  }
 
   .main-archive {
     grid-template-columns: 10% 80% 10%;
